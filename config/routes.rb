@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get '/index', to: 'students#index', as: 'students'
+  get '/students', to: 'students#index', as: 'students'
 end
