@@ -1,2 +1,4 @@
 
-<%= link_to 'students', students_url(@students) %>
+<% @students.each do |student| %>
+<%= student.first_name + " " + student.last_name %>
+<% end %>
