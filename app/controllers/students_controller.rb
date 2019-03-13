@@ -1,7 +1,8 @@
 class StudentsController < ApplicationController
 
   def index
-    @students = student.all?
+    @students = student.all
+    render "students/index"
   end
 
 end
