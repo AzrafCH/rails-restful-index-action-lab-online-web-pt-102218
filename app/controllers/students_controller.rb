@@ -1,6 +1,6 @@
 class StudentsController < ApplicationController
 
-  def initialize(students)
+  def initialize
     @students = Student.find(params[:id]).to_s
   end
 
